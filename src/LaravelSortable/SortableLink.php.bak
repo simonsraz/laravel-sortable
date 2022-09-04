@@ -1,14 +1,14 @@
 <?php
 
-namespace Simonsraz\LaravelSortable;
+namespace Kyslik\ColumnSortable;
 
-use Simonsraz\LaravelSortable\Exceptions\ColumnSortableException;
+use Kyslik\ColumnSortable\Exceptions\ColumnSortableException;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Support\Str;
 
 /**
  * Class SortableLink
- * @package Simonsraz\LaravelSortable
+ * @package Kyslik\ColumnSortable
  */
 class SortableLink
 {
@@ -17,7 +17,7 @@ class SortableLink
      * @param array $parameters
      *
      * @return string
-     * @throws \Simonsraz\LaravelSortable\Exceptions\ColumnSortableException
+     * @throws \Kyslik\ColumnSortable\Exceptions\ColumnSortableException
      */
     public static function render(array $parameters)
     {
