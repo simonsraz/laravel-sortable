@@ -1,13 +1,13 @@
 <?php
 
-namespace Kyslik\ColumnSortable;
+namespace Simonsraz\LaravelSortable;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 
 /**
  * Class ColumnSortableServiceProvider
- * @package Kyslik\ColumnSortable
+ * @package Simonsraz\LaravelSortable
  */
 class ColumnSortableServiceProvider extends ServiceProvider
 {
