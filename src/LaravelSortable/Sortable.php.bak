@@ -1,6 +1,6 @@
 <?php
 
-namespace Simonsraz\LaravelSortable;
+namespace Kyslik\ColumnSortable;
 
 use BadMethodCallException;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
