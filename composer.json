@@ -1,0 +1,43 @@
+{
+    "name": "simonsraz/laravel-sortable",
+    "description": "Package for handling column sorting in Laravel 6.x",
+    "keywords": [
+        "sortable",
+        "sorting",
+        "column",
+        "sort",
+        "laravel"
+    ],
+    "license": "MIT",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Simon S Raz",
+            "email": "sumonskrbd@gmail.com",
+            "role": "Developer and maintainer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "illuminate/support": "5.8.*|^6.0|^7.0|^8.0|^9.0",
+        "illuminate/database": "5.8.*|^6.0|^7.0|^8.0|^9.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5|^9.5.10",
+        "orchestra/testbench": "^5.0|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Simonsraz\\LaravelSortable\\": "src/LaravelSortable/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Simonsraz\\LaravelSortable\\ColumnSortableServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
